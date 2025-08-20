@@ -19,7 +19,7 @@ export default class popup {
         if (info.background == false) this.popup.style.background = 'none';
         else this.popup.style.background = '#000000b3'
         this.popupTitle.innerHTML = info.title;
-        this.popupContent.style.color = info.color ? info.color : '#e21212';
+        this.popupContent.style.color = info.color ? info.color : '#d8d8d8ff';
         this.popupContent.innerHTML = info.content;
 
         if (info.options) this.popupOptions.style.display = 'flex';

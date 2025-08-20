@@ -1,0 +1,39 @@
+{
+  "Celestia 1.21.1": {
+    "name": "Celestia 1.21.1",
+    "url": "http://venstone.xyz/launcher-data/new/files?instance=Venstone 1.21.1",
+    "url_test": "https://raw.githubusercontent.com/VOTRE_USERNAME/launcher-data/main/instance/Celestia 1.21.1",
+    "loadder": {
+      "minecraft_version": "1.21.1",
+      "loadder_type": "fabric",
+      "loadder_version": "0.17.2"
+    },
+    "verify": false,
+    "ignored": [
+      "crash-reports",
+      "config",
+      "essential",
+      "logs",
+      "resources",
+      "resourcepacks",
+      "saves",
+      "screenshots",
+      "shaderpacks",
+      "W-OVERFLOW",
+      "options.txt",
+      "optionsof.txt",
+      "mods",
+      "servers.dat",
+      "servers.dat_old",
+      ".bobby",
+      "config"
+    ],
+    "whitelist": [],
+    "whitelistActive": false,
+    "status": {
+      "nameServer": "Celestia",
+      "ip": "mn05.azurhosts.com",
+      "port": 25769
+    }
+  }
+}

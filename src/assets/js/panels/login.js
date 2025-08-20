@@ -79,6 +79,15 @@ class Login {
                 return;
             }
 
+            if (emailOffline.value.length > 16) {
+                popupLogin.openPopup({
+                    title: 'Erreur',
+                    content: 'Votre pseudo ne peut pas avoir plus de 16 caractères.',
+                    options: true
+                });
+                return;
+            }
+
             if (emailOffline.value.match(/ /g)) {
                 popupLogin.openPopup({
                     title: 'Erreur',
