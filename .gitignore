@@ -3,7 +3,7 @@ app
 dist
 node-v*
 data
-docs
+wiki
 .DS_Store
 AppData
 .github/FUNDING.yml
